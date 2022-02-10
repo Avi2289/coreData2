@@ -74,5 +74,6 @@ class DetailVC: UIViewController {
         let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
         errorAlert.addAction(okAction)
         self.present(errorAlert, animated: true)
+        print("Hello")
     }
 }
